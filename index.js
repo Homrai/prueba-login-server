@@ -14,7 +14,8 @@ app.use(
   }),
 );
 const whiteList=[
-    process.env.ORIGIN1
+    process.env.ORIGIN1,
+    "http://localhost:5173"
 ];
 const corsOptions ={
     origin:'*', 
