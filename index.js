@@ -15,7 +15,7 @@ app.use(
 );
 const whiteList=[
     process.env.ORIGIN1,
-    "http://localhost:5173"
+    "https://prueba-login-front.vercel.app"
 ];
 const corsOptions ={
     origin:'*', 
